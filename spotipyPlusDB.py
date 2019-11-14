@@ -29,7 +29,7 @@ mode = input('>')
 
 dimension = input('how big do you want the albums? (answer >50)')
 
-username =  "charlessjindra"
+username =  sys.argv[1]
 # sys.argv[1]
 scope = 'user-modify-playback-state user-top-read playlist-modify-public user-read-currently-playing playlist-read-collaborative'
 
